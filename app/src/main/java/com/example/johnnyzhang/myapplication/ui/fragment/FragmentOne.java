@@ -93,7 +93,7 @@ public class FragmentOne extends Fragment implements View.OnClickListener {
         fragmentTransaction.replace(R.id.fragment_container, fragmentUserInfo, "tag1");
 
         //
-        //fragmentTransaction.addToBackStack(null);
+        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
 
     }
